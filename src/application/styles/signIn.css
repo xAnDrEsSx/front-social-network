@@ -1,0 +1,8 @@
+
+input:where(:not([type="button"], [type="reset"], [type="submit"])),
+select,
+textarea {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
